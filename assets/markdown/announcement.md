@@ -1,4 +1,11 @@
-### 这里是公告栏
+## 联系方式
 
-你可以通过编辑 `assets/markdown/announcement.md` 来修改它的内容！
+2433670277@qq.com
 
+linzhimin_2003@163.com
+
+## 相关链接
+
+[NICE](https://nice-nlp.github.io/)
+
+[OpenNLG](https://opennlg.cn/#/index)
