@@ -1,0 +1,58 @@
+{
+    "title": "Zhimin Lin | Homepage",
+    "theme": {
+        "theme": "liora",
+        "displayName": "Liora",
+        "colors": {
+            "autoSwitch": {
+                "displayName": "Auto",
+                "light": "sun",
+                "dark": "moon",
+                "icon": {
+                    "icon": "fa-solid fa-circle-half-stroke",
+                    "color": "#808080",
+                    "background": "linear-gradient(45deg, #eeeeee 50%, #1c1c1c 50%)"
+                }
+            },
+            "enable": ["sun", "!autoSwitch", "moon"],
+            "default": "!autoSwitch"
+        }
+    },
+    "masterInfo": {
+        "name": "林智敏",
+        "avatar": "./assets/images/avatar.png",
+        "website": "",
+        "socialLink": {
+            "link": {
+                "bilibili": "",
+                "github": "https://github.com/NenRinCake",
+                "email": "javascript:showEmail()"
+            },
+            "icon": {
+                "bilibili": "fa-brands fa-bilibili",
+                "github": "fa-brands fa-github",
+                "email": "fa-solid fa-envelope"
+            },
+            "enable": ["github"]
+        }
+    },
+    "pageHead": {
+        "typedContent": ["长夜伴浪破晓梦，梦晓破浪伴夜长。 ------《樱之诗》",
+            "这个世界就是宝石箱。璀璨夺目，犹如熠熠生辉的宝石箱。 ------《星空列车与白的旅行》",
+            "梦正因为廉价才美妙，如果梦不廉价了，那也就不是梦了。 ------《素晴日》",
+            "生者生者，路化冰河，人生没有四季，唯有那一片寒冬。 ------《G弦上的魔王》"]
+    },
+    "icp": {
+        "info": {
+            "code": {
+                "china": "",
+                "moegov": ""
+            },
+            "link": {
+                "china": "",
+                "moegov": ""
+            }
+        },
+        "enable": []
+    }
+}

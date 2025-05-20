@@ -1,0 +1,479 @@
+<!--<!doctype html>-->
+<!--<html lang="zh">-->
+<!--    <head>-->
+<!--        <meta charset="UTF-8" />-->
+<!--        <meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
+<!--        <title>Loading...</title>-->
+<!--        <meta name="description" content="Content Info" />-->
+<!--        <link rel="icon" href="./favicon.ico" />-->
+
+<!--        <link rel="stylesheet" href="./assets/styles/loaders.css" />-->
+<!--        <iframe id="global-loader-iframe" src="./loaders/global.html"></iframe>-->
+
+<!--        <link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.css" />-->
+
+<!--        <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/alpinejs/3.9.0/cdn.min.js" defer></script>-->
+<!--        <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/sweetalert/2.1.2/sweetalert.min.js"></script>-->
+<!--        <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/typed.js/2.0.12/typed.js"></script>-->
+<!--        <script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/markdown-it/12.3.2/markdown-it.js"></script>-->
+
+<!--        <link rel="stylesheet" href="./assets/styles/elements.css" />-->
+<!--        <link rel="stylesheet" href="./assets/styles/index.css" />-->
+<!--        <link rel="stylesheet" href="./assets/styles/responsive/index.css" />-->
+
+<!--        <script src="./assets/scripts/utils.js"></script>-->
+<!--        <script src="./assets/scripts/theme-loader.js"></script>-->
+<!--        <script src="./assets/scripts/index.js"></script>-->
+
+<!--        <theme></theme>-->
+<!--    </head>-->
+<!--    <body x-data="">-->
+<!--        <div class="page-head">-->
+<!--            <span class="title"></span>-->
+<!--        </div>-->
+
+<!--        <div class="primary-container">-->
+<!--            <div class="left-area">-->
+<!--                <div class="cards">-->
+<!--                    <div class="card-item" id="personal-info">-->
+<!--                        <img class="avatar" :src="config.content.masterInfo.avatar" />-->
+<!--                        <span class="name" x-text="config.content.masterInfo.name">Loading...</span>-->
+<!--                        <div class="social-icons">Loading...</div>-->
+<!--                    </div>-->
+<!--                    <div class="card-item" id="recommend">-->
+<!--                        <span class="title"><i class="fa-solid fa-bullhorn"></i>其他信息</span>-->
+<!--                        <div class="content">-->
+<!--                            <div class="markdown-content" src="./assets/markdown/announcement.md"></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--&lt;!&ndash;                    <div class="card-item" id="hitokoto">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <span class="title"><i class="fa-solid fa-scroll"></i>一言</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="content">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <a id="hitokoto-text" href="" target="_blank">Loading...</a>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                    <div class="card-item" id="settings">-->
+<!--                        <span class="title"><i class="fa-solid fa-sliders"></i>浏览设置</span>-->
+<!--                        <div class="content">-->
+<!--                            <div class="settings-item theme-settings">-->
+<!--                                <span class="title"><i class="fa-solid fa-shirt"></i>配色方案 · <span x-text="config.content.theme.displayName"></span></span>-->
+<!--                                <div class="themes"></div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="right-area">-->
+<!--                <div class="content-page">-->
+<!--                    <div class="markdown-content" src="./assets/markdown/content-page.md"></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <div class="footer">-->
+<!--            <span class="icp-info">Loading...</span>-->
+<!--&lt;!&ndash;            <span class="line-break"><i class="fa-solid fa-ellipsis"></i></span>&ndash;&gt;-->
+<!--            &lt;!&ndash; 球球你别改这里可以嘛呜呜呜 (＞﹏＜) &ndash;&gt;-->
+<!--            &lt;!&ndash; “[Loading...]”的实际内容可以在 config.json 的 masterInfo.info 项中修改哦~ &ndash;&gt;-->
+<!--&lt;!&ndash;            <span&ndash;&gt;-->
+<!--&lt;!&ndash;                >本站由 <span class="webmaster-info"><a :href="config.content.masterInfo.website" target="_blank" x-text="config.content.masterInfo.name">[Loading...]</a> 和 </span><a href="https://hic.top" target="_blank">成成0v0</a> 用 <i class="fa-solid fa-heart"></i> 制作</span&ndash;&gt;-->
+<!--&lt;!&ndash;            >&ndash;&gt;-->
+
+<!--            <span>Powered by <a href="https://github.com/ChengCheng0v0/ACG-Home" target="_blank">ACG-Home</a></span>-->
+<!--        </div>-->
+
+<!--        <iframe id="theme-color-loader-iframe" src="./loaders/theme-color.html"></iframe>-->
+
+<!--        <script>-->
+<!--            // 隐藏滚动条-->
+<!--            document.body.style.overflow = "hidden";-->
+
+<!--            // 加载动画的最短显示时间-->
+<!--            const minimumLoadingTime = 0;-->
+<!--            const startTime = new Date().getTime();-->
+
+<!--            // 页面加载完成后计算是否满足最短时间-->
+<!--            window.addEventListener("load", function () {-->
+<!--                const currentTime = new Date().getTime();-->
+<!--                const elapsedTime = currentTime - startTime;-->
+
+<!--                // 如果页面加载时间少于最短显示时间则延迟隐藏加载动画-->
+<!--                const delay = Math.max(0, minimumLoadingTime - elapsedTime);-->
+<!--                setTimeout(() => {-->
+<!--                    // document.querySelector(".content").style.display = "block"; //显示网站内容-->
+<!--                    document.getElementById("global-loader-iframe").className = "end"; // 播放结束动画-->
+<!--                    document.body.style.overflow = "unset"; // 恢复显示滚动条-->
+<!--                }, delay);-->
+<!--            });-->
+<!--        </script>-->
+<!--    </body>-->
+<!--</html>-->
+
+
+
+
+
+
+<!doctype html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Loading...</title>
+        <meta name="description" content="Content Info" />
+        <link rel="icon" href="./favicon.ico" />
+
+        <link rel="stylesheet" href="./assets/styles/loaders.css" />
+        <iframe id="global-loader-iframe" src="./loaders/global.html"></iframe>
+
+        <link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.css" />
+
+        <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/alpinejs/3.9.0/cdn.min.js" defer></script>
+        <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/sweetalert/2.1.2/sweetalert.min.js"></script>
+        <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/typed.js/2.0.12/typed.js"></script>
+        <script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/markdown-it/12.3.2/markdown-it.js"></script>
+
+        <link rel="stylesheet" href="./assets/styles/elements.css" />
+        <link rel="stylesheet" href="./assets/styles/index.css" />
+        <link rel="stylesheet" href="./assets/styles/responsive/index.css" />
+
+        <script src="./assets/scripts/utils.js"></script>
+        <script src="./assets/scripts/theme-loader.js"></script>
+        <script src="./assets/scripts/index.js"></script>
+
+        <theme></theme>
+
+        <style>
+            .language-buttons {
+                display: flex;
+                gap: 10px;
+                margin-top: 10px;
+            }
+
+            .language-btn {
+                cursor: pointer;
+                padding: 5px 10px;
+                border-radius: 4px;
+                background-color: var(--card-background-color);
+                border: 1px solid var(--border-color);
+                transition: all 0.3s ease;
+                font-family: inherit;
+                font-size: inherit;
+                color: inherit;
+            }
+
+            .language-btn.active {
+                background-color: var(--primary-color);
+                color: white;
+            }
+
+            .language-btn:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+
+            /* 英文内容的样式 */
+            html[lang="en"] .markdown-content {
+                line-height: 1.8;
+            }
+
+            html[lang="en"] .markdown-content p {
+                margin-bottom: 1.2em;
+            }
+
+            /*html[lang="en"] .markdown-content h1 {*/
+            /*    margin-top: 1em;*/
+            /*    margin-bottom: 1em;*/
+            /*}*/
+
+            /*html[lang="en"] .markdown-content h2 {*/
+            /*    margin-top: 0.8em;*/
+            /*    margin-bottom: 0.8em;*/
+            /*}*/
+
+            /*html[lang="en"] .markdown-content li {*/
+            /*    margin-bottom: 0.6em;*/
+            /*}*/
+        </style>
+    </head>
+    <body x-data>
+        <div class="page-head">
+            <span class="title"></span>
+        </div>
+
+        <div class="primary-container">
+            <div class="left-area">
+                <div class="cards">
+                    <div class="card-item" id="personal-info">
+                        <img class="avatar" :src="config.content.masterInfo.avatar" />
+                        <span class="name" id="person-name" x-text="config.content.masterInfo.name">Loading...</span>
+                        <div class="social-icons">Loading...</div>
+                    </div>
+                    <div class="card-item" id="recommend">
+                        <span class="title"><i class="fa-solid fa-bullhorn"></i><span class="ui-translate" data-key="announcement">其他信息</span></span>
+                        <div class="content">
+                            <div class="markdown-content" id="announcement-content" src="./assets/markdown/announcement.md"></div>
+                        </div>
+                    </div>
+<!--                    <div class="card-item" id="hitokoto">-->
+<!--                        <span class="title"><i class="fa-solid fa-scroll"></i>一言</span>-->
+<!--                        <div class="content">-->
+<!--                            <a id="hitokoto-text" href="" target="_blank">Loading...</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                    <div class="card-item" id="settings">
+                        <span class="title"><i class="fa-solid fa-sliders"></i><span class="ui-translate" data-key="settings">浏览设置</span></span>
+                        <div class="content">
+                            <div class="settings-item theme-settings">
+                                <span class="title"><i class="fa-solid fa-shirt"></i><span class="ui-translate" data-key="theme">配色方案</span> · <span x-text="config.content.theme.displayName"></span></span>
+                                <div class="themes"></div>
+                            </div>
+
+                            <div class="settings-item language-settings">
+                                <span class="title"><i class="fa-solid fa-language"></i><span class="ui-translate" data-key="language">语言 · Language</span></span>
+                                <div class="language-buttons">
+                                    <button
+                                        class="language-btn"
+                                        id="lang-zh"
+                                        onclick="changeLanguage('zh')">
+                                        中文
+                                    </button>
+                                    <button
+                                        class="language-btn"
+                                        id="lang-en"
+                                        onclick="changeLanguage('en')">
+                                        English
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-area">
+                <div class="content-page">
+                    <div id="content-markdown" class="markdown-content" src="./assets/markdown/content-page.md"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <span class="icp-info">Loading...</span>
+<!--            <span class="line-break"><i class="fa-solid fa-ellipsis"></i></span>-->
+            <!-- 球球你别改这里可以嘛呜呜呜 (＞﹏＜) -->
+            <!-- "[Loading...]"的实际内容可以在 config.json 的 masterInfo.info 项中修改哦~ -->
+<!--            <span-->
+<!--                >本站由 <span class="webmaster-info"><a :href="config.content.masterInfo.website" target="_blank" x-text="config.content.masterInfo.name">[Loading...]</a> 和 </span><a href="https://hic.top" target="_blank">成成0v0</a> 用 <i class="fa-solid fa-heart"></i> 制作</span-->
+<!--            >-->
+
+            <span>Powered by <a href="https://github.com/ChengCheng0v0/ACG-Home" target="_blank">ACG-Home</a></span>
+        </div>
+
+        <iframe id="theme-color-loader-iframe" src="./loaders/theme-color.html"></iframe>
+
+        <script>
+            // 隐藏滚动条
+            document.body.style.overflow = "hidden";
+
+            // 加载动画的最短显示时间
+            const minimumLoadingTime = 0;
+            const startTime = new Date().getTime();
+
+            // 用于存储中英文名字的对象
+            const nameTranslations = {
+                'zh': '林智敏',
+                'en': 'Zhimin Lin'
+            };
+
+            // 翻译字典
+            const translations = {
+                'zh': {
+                    'settings': '浏览设置',
+                    'theme': '配色方案',
+                    'language': '语言 · Language',
+                    'announcement': '其他信息'
+                },
+                'en': {
+                    'settings': 'Settings',
+                    'theme': 'Theme',
+                    'language': 'Language · 语言',
+                    'announcement': 'Announcements'
+                }
+            };
+
+            // 显示加载动画
+            function showLoadingAnimation() {
+                // 显示全局加载动画
+                const loaderIframe = document.getElementById("global-loader-iframe");
+                if (loaderIframe) {
+                    loaderIframe.classList.remove("end");
+                    loaderIframe.style.display = "block";
+                }
+                // 隐藏滚动条
+                document.body.style.overflow = "hidden";
+            }
+
+            // 隐藏加载动画
+            function hideLoadingAnimation() {
+                const loaderIframe = document.getElementById("global-loader-iframe");
+                if (loaderIframe) {
+                    loaderIframe.className = "end";
+                }
+                // 恢复滚动条
+                document.body.style.overflow = "unset";
+            }
+
+            // 页面加载完成后计算是否满足最短时间
+            window.addEventListener("load", function () {
+                const currentTime = new Date().getTime();
+                const elapsedTime = currentTime - startTime;
+
+                // 如果页面加载时间少于最短显示时间则延迟隐藏加载动画
+                const delay = Math.max(0, minimumLoadingTime - elapsedTime);
+                setTimeout(() => {
+                    // 隐藏加载动画
+                    hideLoadingAnimation();
+
+                    // 初始化语言设置
+                    initLanguage();
+                }, delay);
+            });
+
+            // 初始化语言设置
+            function initLanguage() {
+                // 检查是否有保存的语言设置
+                const savedLanguage = localStorage.getItem('preferredLanguage') || 'zh';
+
+                // 更新按钮状态
+                updateLanguageButtonState(savedLanguage);
+
+                // 加载相应的内容
+                updateAllLanguageContent(savedLanguage);
+            }
+
+            // 更新所有与语言相关的内容
+            function updateAllLanguageContent(lang) {
+                // 设置HTML元素的lang属性，用于CSS选择器
+                document.documentElement.setAttribute('lang', lang);
+
+                // 更新主内容
+                const contentMarkdown = document.getElementById('content-markdown');
+                if (contentMarkdown) {
+                    contentMarkdown.setAttribute('src', lang === 'zh' ?
+                        './assets/markdown/content-page.md' : './assets/markdown/content-page-en.md');
+                    reloadMarkdownContent(contentMarkdown);
+                }
+
+                // 更新公告内容
+                const announcementContent = document.getElementById('announcement-content');
+                if (announcementContent) {
+                    announcementContent.setAttribute('src', lang === 'zh' ?
+                        './assets/markdown/announcement.md' : './assets/markdown/announcement-en.md');
+                    reloadMarkdownContent(announcementContent);
+                }
+
+                // 更新名字
+                updatePersonName(lang);
+
+                // 更新UI翻译
+                updateUITranslations(lang);
+            }
+
+            // 更新人名
+            function updatePersonName(lang) {
+                // 如果在Alpine.js环境中
+                try {
+                    if (window.Alpine) {
+                        // 获取Alpine数据存储
+                        const alpineRoot = document.querySelector("[x-data]").__x.$data;
+                        if (alpineRoot && alpineRoot.config && alpineRoot.config.content && alpineRoot.config.content.masterInfo) {
+                            // 更新Alpine数据中的名字
+                            alpineRoot.config.content.masterInfo.name = nameTranslations[lang];
+                        }
+                    }
+                } catch (e) {
+                    console.error('Error updating Alpine data:', e);
+                }
+
+                // 直接更新DOM（备用方案）
+                const nameElement = document.getElementById('person-name');
+                if (nameElement) {
+                    nameElement.textContent = nameTranslations[lang];
+                }
+            }
+
+            // 更新UI翻译
+            function updateUITranslations(lang) {
+                // 更新所有需要翻译的UI元素
+                document.querySelectorAll('.ui-translate').forEach(element => {
+                    const key = element.getAttribute('data-key');
+                    if (key && translations[lang][key]) {
+                        element.textContent = translations[lang][key];
+                    }
+                });
+            }
+
+            // 更新语言按钮状态
+            function updateLanguageButtonState(lang) {
+                document.getElementById('lang-zh').classList.toggle('active', lang === 'zh');
+                document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+            }
+
+            // 处理语言切换的函数
+            function changeLanguage(lang) {
+                // 显示加载动画
+                showLoadingAnimation();
+
+                // 保存用户偏好
+                localStorage.setItem('preferredLanguage', lang);
+
+                // 更新按钮状态
+                updateLanguageButtonState(lang);
+
+                // 延迟一小段时间后更新内容，以便动画显示
+                setTimeout(() => {
+                    // 更新所有语言相关内容
+                    updateAllLanguageContent(lang);
+
+                    // 隐藏加载动画
+                    hideLoadingAnimation();
+                }, 500); // 500毫秒的延迟，可以根据需要调整
+            }
+
+            // 重新加载 Markdown 内容
+            function reloadMarkdownContent(element) {
+                if (!element) return;
+
+                // 获取markdown文件路径
+                const markdownPath = element.getAttribute('src');
+
+                // 加载markdown文件
+                fetch(markdownPath)
+                    .then(response => {
+                        // 检查响应状态
+                        if (!response.ok) {
+                            throw new Error(`Failed to load markdown: ${response.status} ${response.statusText}`);
+                        }
+                        return response.text();
+                    })
+                    .then(text => {
+                        // 使用已加载的markdown-it实例，如果存在
+                        if (window.markdownit) {
+                            const md = window.markdownit({
+                                html: true,  // 允许HTML标签通过
+                                breaks: true // 将换行符转换为<br>
+                            });
+                            element.innerHTML = md.render(text);
+                        } else {
+                            // 简单的回退，至少显示文本
+                            element.innerHTML = `<div>${text.replace(/\n/g, '<br>')}</div>`;
+                        }
+                    })
+                    .catch(err => {
+                        console.error('Failed to load markdown', err);
+                        element.innerHTML = '<p>Failed to load content. Error: ' + err.message + '</p>';
+                    });
+            }
+        </script>
+    </body>
+</html>
