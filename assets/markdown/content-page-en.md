@@ -2,15 +2,15 @@
 
 I am a Master's student at the [Institute of Artificial Intelligence, Soochow University](https://iai.suda.edu.cn/), under the supervision of [Professor Li Juntao](https://lijuntaopku.github.io/).
 
-I obtained my Bachelor's degree in Software Engineering (2021-2025) in 2025. During my undergraduate studies, I maintained a GPA within the top 5% of my department and received multiple honors including Outstanding Student Scholarships and the Outstanding Student Award. These achievements earned me direct admission to Soochow University's graduate program without entrance examinations. I was a member of the university's Algorithm Studio and Remote Sensing Laboratory, where I participated in or led various projects including "High-Resolution Remote Sensing Image Classification," "Virtual Reality Digital Exhibition Hall," and "Substation Training Safety Monitoring and Assessment Platform." I successfully registered two computer software copyrights and secured one National College Student Innovation and Entrepreneurship Project.
+I obtained my Bachelor's degree in Software Engineering (2021-2025) in 2025. During my undergraduate studies, I maintained a GPA within the top 5% of my department and received multiple honors including Outstanding Student Scholarships and the Outstanding Student Award. These achievements earned me direct admission to Soochow University's graduate program without entrance examinations. I was a member of the university's Algorithm Studio and Remote Sensing Laboratory, where I participated in or led various projects including "High-Resolution Remote Sensing Image Classification," "Virtual Reality Digital Exhibition Hall," and "Substation Training Safety Monitoring and Assessment Platform." I successfully registered two computer software copyrights [(here)](https://register.ccopyright.com.cn/publicInquiry.html?type=softList&registerNumber=2024SR1003771&keyWord=%E6%9E%97%E6%99%BA%E6%95%8F&publicityType=ALL&registerDateType=ALL) and secured one National College Student Innovation and Entrepreneurship Project [(here)](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=1331767&year=2024&type=student&IsLXItem=0).
 
 Currently, my research focuses on <font color=#0077AA>Natural Language Processing</font>, particularly in accelerating inference and lightweight implementation of large language models. I also have interests in multimodality, long and short-term memory capabilities of large models, and voice cloning.
 
 # Education
 
-Soochow University (September 2025 - Present)
+Soochow University, Artificial Intelligence, Master's Degree (September 2025 - Present)
 
-Northeast Electric Power University (September 2021 - June 2025)
+Northeast Electric Power University, Software Engineering, Bachelor’s Degree (September 2021 - June 2025)
 
 # Scholarships
 
@@ -42,4 +42,6 @@ Bronze Award (Finals), Huawei Ascend AI Innovation Competition, June 2023
 
 # Projects
 
-Awesome Test Time LLMs [here](https://github.com/Dereck0602/Awesome_Test_Time_LLMs)
+[Awesome Test Time LLMs](https://github.com/Dereck0602/Awesome_Test_Time_LLMs)
+
+[Yolo-based smart attendance and helmet wearing detection system for substations](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=1331767&year=2024&type=student&IsLXItem=0)
