@@ -14,6 +14,10 @@ Northeast Electric Power University, Software Engineering, Bachelor’s Degree (
 
 # Scholarships
 
+The 4th Meilan Foundation Scholarship, August 2025
+
+The 14th Jude Education Foundation Scholarship, August 2025
+
 Outstanding Student Scholarship, 2024-2025 Academic Year, May 2025
 
 Scientific and Technological Innovation Scholarship, 2023-2024 Academic Year, November 2024
