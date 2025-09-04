@@ -1,6 +1,6 @@
 # About Me
 
-I am a Master's student at the [Institute of Artificial Intelligence, Soochow University](https://iai.suda.edu.cn/), under the supervision of [Professor Li Juntao](https://lijuntaopku.github.io/).
+I am a Master's student at the [Institute of Artificial Intelligence, Soochow University](https://iai.suda.edu.cn/), under the supervision of [Professor Juntao Li](https://lijuntaopku.github.io/) and [Professor Junhua Fang](https://web.suda.edu.cn/jhfang/).
 
 I obtained my Bachelor's degree in Software Engineering (2021-2025) in 2025. During my undergraduate studies, I participated in or led various projects including "High-Resolution Remote Sensing Image Classification," "Virtual Reality Digital Exhibition Hall," and "Substation Training Safety Monitoring and Assessment Platform." I successfully registered two computer software copyrights [(here)](https://register.ccopyright.com.cn/publicInquiry.html?type=softList&registerNumber=2024SR1003771&keyWord=%E6%9E%97%E6%99%BA%E6%95%8F&publicityType=ALL&registerDateType=ALL) and secured one National College Student Innovation and Entrepreneurship Project [(here)](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=1331767&year=2024&type=student&IsLXItem=0). I was admitted to Soochow University for a Master's degree through postgraduate recommendation.
 
