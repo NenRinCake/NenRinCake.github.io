@@ -30,6 +30,8 @@
 
 [基于 Yolo 的变电站智能出勤与安全帽佩戴检测系统](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=1331767&year=2024&type=student&IsLXItem=0)
 
+---
+
 # 获得奖金
 
 苏州大学一等奖学金 2025/12
@@ -49,6 +51,8 @@
 华为昇腾AI大赛奖金 2023/7
 
 2021 - 2022学年优秀学生奖学金 2022/10
+
+---
 
 # 获得奖项
 
