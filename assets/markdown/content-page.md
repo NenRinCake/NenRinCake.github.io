@@ -15,6 +15,8 @@
 
 # 获得奖金
 
+苏州大学学业一等奖学金 2025/12
+
 第四届美澜基金会奖学金 2025/8
 
 第十四届聚德教育基金会奖学金 2025/8
@@ -45,8 +47,8 @@ NTCCS国三等奖 2023/12
 
 # 参与项目
 
-[Awesome Test Time LLMs](https://github.com/Dereck0602/Awesome_Test_Time_LLMs)
-
 [基于 Yolo 的变电站智能出勤与安全帽佩戴检测系统](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=1331767&year=2024&type=student&IsLXItem=0)
+
+# 论文与预印本
 
 
