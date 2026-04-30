@@ -6,7 +6,7 @@ I obtained my Bachelor's degree in Software Engineering (2021-2025) in 2025. Dur
 
 Currently, my research focuses on <font color=#0077AA>Natural Language Processing</font>, particularly in accelerating inference and lightweight implementation of large language models. I also have interests in multimodality, long and short-term memory capabilities of large models, and voice cloning.
 
-<div style="height: 16px;"></div>
+<hr style="border: none; border-top: 1.5px solid #ddd; width: 80%;">
 
 # Education
 
