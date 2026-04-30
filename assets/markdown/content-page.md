@@ -13,6 +13,18 @@
 
 [东北电力大学](https://www.neepu.edu.cn/)，软件工程，学士 （2021/9 - 2025/6）
 
+# 论文与预印本
+
+### 测试时缩放 (Test-Time Scaling)
+
+* **When to Vote, When to Rewrite: Disagreement-Guided Strategy Routing for Test-Time Scaling**  
+  <font color=#66ccff><u>Zhimin Lin</u></font>, Yixin Ji, Jinpeng Li, Yu Luo, Dong Li, Junhua Fang, Juntao Li, Min Zhang  
+  [[Paper](https://arxiv.org/pdf/2604.26644)]
+
+# 参与项目
+
+[基于 Yolo 的变电站智能出勤与安全帽佩戴检测系统](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=1331767&year=2024&type=student&IsLXItem=0)
+
 # 获得奖金
 
 苏州大学一等奖学金 2025/12
@@ -45,17 +57,9 @@ NTCCS国三等奖 2023/12
 
 华为昇腾AI创新大赛决赛铜奖 2023/6
 
-# 参与项目
 
-[基于 Yolo 的变电站智能出勤与安全帽佩戴检测系统](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=1331767&year=2024&type=student&IsLXItem=0)
 
-# 论文与预印本
 
-### 测试时缩放 (Test-Time Scaling)
-
-* **When to Vote, When to Rewrite: Disagreement-Guided Strategy Routing for Test-Time Scaling**  
-  <font color=#66ccff><u>Zhimin Lin</u></font>, Yixin Ji, Jinpeng Li, Yu Luo, Dong Li, Junhua Fang, Juntao Li, Min Zhang  
-  [[Paper](https://arxiv.org/pdf/2604.26644)]
 
 
 
