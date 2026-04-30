@@ -44,6 +44,12 @@ Bronze Award (Finals), Huawei Ascend AI Innovation Competition, June 2023
 
 # Projects
 
-[Awesome Test Time LLMs](https://github.com/Dereck0602/Awesome_Test_Time_LLMs)
-
 [Yolo-based smart attendance and helmet wearing detection system for substations](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=1331767&year=2024&type=student&IsLXItem=0)
+
+# Publications & Preprints
+
+### Test-Time Scaling
+
+* **When to Vote, When to Rewrite: Disagreement-Guided Strategy Routing for Test-Time Scaling**  
+  <font color=#0077AA>Zhimin Lin</font>, Yixin Ji, Jinpeng Li, Yu Luo, Dong Li, Junhua Fang, Juntao Li, Min Zhang  
+  [[Paper](https://arxiv.org/pdf/2604.26644)]
