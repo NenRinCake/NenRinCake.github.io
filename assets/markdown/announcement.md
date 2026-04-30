@@ -4,6 +4,8 @@
 
 linzhimin_2003@163.com
 
+linzhimin327@gmail.com
+
 ## 相关链接
 
 我组搭建的NLP交流平台: [NICE](https://nice-nlp.github.io/)
