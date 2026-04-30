@@ -14,6 +14,8 @@ Currently, my research focuses on <font color=#0077AA>Natural Language Processin
 
 # Scholarships
 
+First-Class Scholarship, Soochow University, December 2025
+
 The 4th Meilan Foundation Scholarship, August 2025
 
 The 14th Jude Education Foundation Scholarship, August 2025
