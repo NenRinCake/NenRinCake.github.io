@@ -6,6 +6,7 @@
 
 目前，我的研究方向是<font color=#0077AA>自然语言处理</font>，尤其是大模型的加速推理和轻量化。当然，我也对多模态、大模型长短期记忆能力以及声音克隆等方面也有兴趣。
 
+---
 
 # 教育经历
 
@@ -13,13 +14,17 @@
 
 [东北电力大学](https://www.neepu.edu.cn/)，软件工程，学士 （2021/9 - 2025/6）
 
+---
+
 # 论文与预印本
 
 ### 测试时缩放 (Test-Time Scaling)
 
 * **When to Vote, When to Rewrite: Disagreement-Guided Strategy Routing for Test-Time Scaling**  
   <font color=#66ccff><u>Zhimin Lin</u></font>, Yixin Ji, Jinpeng Li, Yu Luo, Dong Li, Junhua Fang, Juntao Li, Min Zhang  
-  [[Paper](https://arxiv.org/pdf/2604.26644)] [[Code](https://github.com/NenRinCake/Disagreement-guided_Strategy_Routing)] 
+  [[Paper](https://arxiv.org/pdf/2604.26644)] [[Code](https://github.com/NenRinCake/Disagreement-guided_Strategy_Routing)]
+
+---
 
 # 参与项目
 
