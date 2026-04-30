@@ -19,7 +19,7 @@
 
 * **When to Vote, When to Rewrite: Disagreement-Guided Strategy Routing for Test-Time Scaling**  
   <font color=#66ccff><u>Zhimin Lin</u></font>, Yixin Ji, Jinpeng Li, Yu Luo, Dong Li, Junhua Fang, Juntao Li, Min Zhang  
-  [[Paper](https://arxiv.org/pdf/2604.26644)]
+  [[Paper](https://arxiv.org/pdf/2604.26644)] [[Code](https://github.com/NenRinCake/Disagreement-guided_Strategy_Routing)]
 
 # 参与项目
 
