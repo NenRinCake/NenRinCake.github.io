@@ -4,6 +4,8 @@
 
 linzhimin_2003@163.com
 
+linzhimin327@gmail.com
+
 ## Relevant Links
 
 NLP Community Platform built by our team members: [NICE](https://nice-nlp.github.io/)
