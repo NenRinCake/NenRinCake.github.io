@@ -2,7 +2,7 @@
 
 我是[苏州大学人工智能研究院](https://iai.suda.edu.cn/)的硕士生，师从[李俊涛教授](https://lijuntaopku.github.io/)和[房俊华教授](https://web.suda.edu.cn/jhfang/)。
 
-我于2025年获得软件工程学士学位（2021-2025），在此期间，我参加或主导了“高清遥感图像分类”、“虚拟现实数字展厅”、“变电站实训安全监测与考核平台”等项目课题，并成功申请两项计算机软件著作权[(在这里)](https://register.ccopyright.com.cn/publicInquiry.html?type=softList&registerNumber=2024SR1003771&keyWord=%E6%9E%97%E6%99%BA%E6%95%8F&publicityType=ALL&registerDateType=ALL)以及一项国家级大学生创新创业项目[(在这里)](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=1331767&year=2024&type=student&IsLXItem=0)。最终推免至苏州大学攻读硕士学位。
+我于2025年获得软件工程学士学位（2021-2025），在此期间，我参加或主导了“高清遥感图像分类”、“虚拟现实数字展厅”、“变电站实训安全监测与考核平台”等项目课题，并成功申请两项计算机软件著作权 [(在这里)](https://register.ccopyright.com.cn/publicInquiry.html?type=softList&registerNumber=2024SR1003771&keyWord=%E6%9E%97%E6%99%BA%E6%95%8F&publicityType=ALL&registerDateType=ALL) 以及一项国家级大学生创新创业项目 [(在这里)](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=1331767&year=2024&type=student&IsLXItem=0)。最终推免至苏州大学攻读硕士学位。
 
 目前，我的研究方向是<font color=#0077AA>自然语言处理</font>，尤其是大模型的加速推理和轻量化。当然，我也对多模态、大模型长短期记忆能力以及声音克隆等方面也有兴趣。
 
