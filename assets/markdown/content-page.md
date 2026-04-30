@@ -51,7 +51,7 @@ NTCCS国三等奖 2023/12
 
 # 论文与预印本
 
-### 测试时缩放
+### 测试时缩放 (Test-Time Scaling)
 
 * **When to Vote, When to Rewrite: Disagreement-Guided Strategy Routing for Test-Time Scaling**  
   <font color=#66ccff>Zhimin Lin</font>, Yixin Ji, Jinpeng Li, Yu Luo, Dong Li, Junhua Fang, Juntao Li, Min Zhang  
