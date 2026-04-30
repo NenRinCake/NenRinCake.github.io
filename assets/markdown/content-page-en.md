@@ -6,11 +6,15 @@ I obtained my Bachelor's degree in Software Engineering (2021-2025) in 2025. Dur
 
 Currently, my research focuses on <font color=#0077AA>Natural Language Processing</font>, particularly in accelerating inference and lightweight implementation of large language models. I also have interests in multimodality, long and short-term memory capabilities of large models, and voice cloning.
 
+---
+
 # Education
 
 [Soochow University](https://eng.suda.edu.cn/), Artificial Intelligence, Master's Degree (September 2025 - Present)
 
 [Northeast Electric Power University](https://en.neepu.edu.cn/), Software Engineering, Bachelor’s Degree (September 2021 - June 2025)
+
+---
 
 # Publications & Preprints
 
@@ -20,9 +24,13 @@ Currently, my research focuses on <font color=#0077AA>Natural Language Processin
   <font color=#66ccff><u>Zhimin Lin</u></font>, Yixin Ji, Jinpeng Li, Yu Luo, Dong Li, Junhua Fang, Juntao Li, Min Zhang  
   [[Paper](https://arxiv.org/pdf/2604.26644)] [[Code](https://github.com/NenRinCake/Disagreement-guided_Strategy_Routing)]
 
+---
+
 # Projects
 
 [Yolo-based smart attendance and helmet wearing detection system for substations](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=1331767&year=2024&type=student&IsLXItem=0)
+
+---
 
 # Scholarships
 
@@ -43,6 +51,8 @@ Outstanding Student Scholarship, 2022-2023 Academic Year, November 2023
 Huawei Ascend AI Competition Scholarship, July 2023
 
 Outstanding Student Scholarship, 2021-2022 Academic Year, October 2022
+
+---
 
 # Awards
 
