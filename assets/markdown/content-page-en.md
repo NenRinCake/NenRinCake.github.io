@@ -12,6 +12,18 @@ Currently, my research focuses on <font color=#0077AA>Natural Language Processin
 
 [Northeast Electric Power University](https://en.neepu.edu.cn/), Software Engineering, Bachelor’s Degree (September 2021 - June 2025)
 
+# Publications & Preprints
+
+### Test-Time Scaling
+
+* **When to Vote, When to Rewrite: Disagreement-Guided Strategy Routing for Test-Time Scaling**  
+  <font color=#66ccff><u>Zhimin Lin</u></font>, Yixin Ji, Jinpeng Li, Yu Luo, Dong Li, Junhua Fang, Juntao Li, Min Zhang  
+  [[Paper](https://arxiv.org/pdf/2604.26644)]
+
+# Projects
+
+[Yolo-based smart attendance and helmet wearing detection system for substations](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=1331767&year=2024&type=student&IsLXItem=0)
+
 # Scholarships
 
 First-Class Scholarship, Soochow University, December 2025
@@ -44,14 +56,8 @@ First Prize (Provincial Level), Chinese College Students' Engineering Practice a
 
 Bronze Award (Finals), Huawei Ascend AI Innovation Competition, June 2023
 
-# Projects
 
-[Yolo-based smart attendance and helmet wearing detection system for substations](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=1331767&year=2024&type=student&IsLXItem=0)
 
-# Publications & Preprints
 
-### Test-Time Scaling
 
-* **When to Vote, When to Rewrite: Disagreement-Guided Strategy Routing for Test-Time Scaling**  
-  <font color=#66ccff><u>Zhimin Lin</u></font>, Yixin Ji, Jinpeng Li, Yu Luo, Dong Li, Junhua Fang, Juntao Li, Min Zhang  
-  [[Paper](https://arxiv.org/pdf/2604.26644)]
+
