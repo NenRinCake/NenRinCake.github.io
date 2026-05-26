@@ -24,6 +24,12 @@ Currently, my research focuses on <font color=#0077AA>Natural Language Processin
   <font color=#66ccff><u>Zhimin Lin</u></font>, Yixin Ji, Jinpeng Li, Yu Luo, Dong Li, Junhua Fang, Juntao Li, Min Zhang  
   [[Paper](https://arxiv.org/pdf/2604.26644)] [[Code](https://github.com/NenRinCake/Disagreement-guided_Strategy_Routing)]
 
+### Multi-Agent System
+
+* **Agent-as-Peer-Debriefer: A Multi-Agent Framework with Perspective-Based Refinement for Qualitative Analysis**  
+  <font color=#66ccff><u>Zhimin Lin</u></font>, Kun Cheng, Fan Bai, Jie Gao  
+  [[Paper](https://arxiv.org/pdf/2605.24600)]
+
 <br>
 
 # Projects
