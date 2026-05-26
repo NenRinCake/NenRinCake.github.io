@@ -64,8 +64,6 @@ Outstanding Student Scholarship, 2021-2022 Academic Year, October 2022
 
 Bronze Award, Matee Cup National Competition, July 2024
 
-Second Prize (Provincial Level), Lanqiao Cup, April 2024
-
 Third Prize (National Level), NTCCS, December 2023
 
 First Prize (Provincial Level), Chinese College Students' Engineering Practice and Innovation Competition, October 2023
