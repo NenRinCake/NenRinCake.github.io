@@ -27,7 +27,7 @@
 ### 多智能体系统 (Multi-Agent System)
 
 * **Agent-as-Peer-Debriefer: A Multi-Agent Framework with Perspective-Based Refinement for Qualitative Analysis**  
-  <font color=#66ccff><u>Zhimin Lin</u></font>, Kun Cheng, Fan Bai, Jie Gao  
+  <font color=#66ccff><u>Zhimin Lin</u></font>, Kun Cheng, Zhiyao Shu, Junhua Fang, Juntao Li, Fan Bai, Jie Gao
   [[Paper](https://arxiv.org/pdf/2605.24600)] [[Code](https://github.com/NenRinCake/Agent-as-Peer-Debriefer)]
   
 
@@ -61,6 +61,8 @@
 
 <br>
 
+
+<!--
 # 获得奖项
 
 码蹄杯国赛铜奖 2024/7
@@ -70,7 +72,7 @@ NTCCS国三等奖 2023/12
 中国大学生工程实践与创新能力大赛省一等奖 2023/10
 
 华为昇腾AI创新大赛决赛铜奖 2023/6
-
+-->
 
 
 
