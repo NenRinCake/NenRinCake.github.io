@@ -27,7 +27,7 @@ Currently, my research focuses on <font color=#0077AA>Natural Language Processin
 ### Multi-Agent System
 
 * **Agent-as-Peer-Debriefer: A Multi-Agent Framework with Perspective-Based Refinement for Qualitative Analysis**  
-  <font color=#66ccff><u>Zhimin Lin</u></font>, Kun Cheng, Fan Bai, Jie Gao  
+  <font color=#66ccff><u>Zhimin Lin</u></font>, Kun Cheng, Zhiyao Shu, Junhua Fang,  Juntao Li, Fan Bai, Jie Gao  
   [[Paper](https://arxiv.org/pdf/2605.24600)] [[Code](https://github.com/NenRinCake/Agent-as-Peer-Debriefer)]
 
 <br>
@@ -60,6 +60,7 @@ Outstanding Student Scholarship, 2021-2022 Academic Year, October 2022
 
 <br>
 
+<!--
 # Awards
 
 Bronze Award, Matee Cup National Competition, July 2024
@@ -70,7 +71,7 @@ First Prize (Provincial Level), Chinese College Students' Engineering Practice a
 
 Bronze Award (Finals), Huawei Ascend AI Innovation Competition, June 2023
 
-
+-->
 
 
 
